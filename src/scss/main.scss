@@ -1,0 +1,55 @@
+* 
+{
+    box-sizing: border-box;
+
+}
+
+html {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    background-image: url(../img/coffee-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+    .main {
+        width: 30%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .info {
+            font-size: 1.5em;
+        }
+        button {
+            background-color: red;
+            color: white;
+            font-size: 3em;
+            border: 2px white;
+            border-radius: 10px;
+            width: 200px;
+            height: 100px;
+            
+
+        }
+    }
+
+}
+
+
+
+
